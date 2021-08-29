@@ -13,6 +13,13 @@
   background: rgba(255, 255, 255, 0.3);
 }
 
+.site-badge-count-4 .ant-badge-count {
+  margin-left: -4px;
+  color: whitesmoke;
+  background-color: black;
+  box-shadow: 0 0 0 0.5px lightgray;
+}
+
 .site-layout .site-layout-background {
   background: #fff;
 }
