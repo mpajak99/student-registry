@@ -12,7 +12,9 @@ import {
     Empty,
     Button,
     Badge,
-    Tag, Popconfirm
+    Tag,
+    Popconfirm,
+    Image
 } from 'antd';
 import {
     DesktopOutlined,
@@ -226,7 +228,11 @@ function App() {
                     {renderStudents()}
                 </div>
             </Content>
-            <Footer style={{textAlign: 'center'}}></Footer>
+            <Footer style={{textAlign: 'center'}}>
+                <Image width={75}
+                        src="https://user-images.githubusercontent.com/87979932/131293726-67ef0d66-9be8-47c1-922c-c3283df84896.png"
+                />
+            </Footer>
         </Layout>
     </Layout>
 }
