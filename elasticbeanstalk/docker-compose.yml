@@ -1,7 +1,9 @@
 version: "3.8"
 services:
   backend:
-    image: "mpajak99/springboot-react-fullstack:latest"
+    image: "mpajak99/springboot-react-fullstack:4"
     ports:
       - "80:8080"
     restart: "always"
+    environment:
+      SPRING_PROFILES_ACTIVE: dev
