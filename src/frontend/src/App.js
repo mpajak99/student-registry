@@ -14,7 +14,8 @@ import {
     Badge,
     Tag,
     Popconfirm,
-    Image
+    Image,
+    Divider
 } from 'antd';
 import {
     DesktopOutlined,
@@ -229,9 +230,18 @@ function App() {
                 </div>
             </Content>
             <Footer style={{textAlign: 'center'}}>
-                <Image width={75}
-                        src="https://user-images.githubusercontent.com/87979932/131293726-67ef0d66-9be8-47c1-922c-c3283df84896.png"
+                <Image width={80}
+                       src="https://user-images.githubusercontent.com/87979932/131626426-875cdf49-2d60-4f3a-9468-f9173933b9a5.png"
                 />
+                <Divider>
+                    <h5>This project was created through the
+                        <a rel="noopener noreferrer"
+                           target="_blank"
+                           href="https://amigoscode.com/p/full-stack-spring-boot-react">
+                            <i> Full Stack Spring Boot & React </i>
+                        </a>course
+                    </h5>
+                </Divider>
             </Footer>
         </Layout>
     </Layout>
