@@ -37,7 +37,7 @@ class StudentRepositoryTest {
     }
 
     @Test
-    void itShouldCheckWhenStudentEmailDoesNotExists() {
+    void itShouldCheckWhenStudentEmailDoesNotExist() {
         //given
         String email = "jamila@gmail.com";
 
