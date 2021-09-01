@@ -235,9 +235,9 @@ function App() {
                 />
                 <Divider>
                     <h5>This project was created through the
-                        <a
-                            target="_blank"
-                            href="https://amigoscode.com/p/full-stack-spring-boot-react">
+                        <a rel="noopener noreferrer"
+                           target="_blank"
+                           href="https://amigoscode.com/p/full-stack-spring-boot-react">
                             <i> Full Stack Spring Boot & React </i>
                         </a>course
                     </h5>
