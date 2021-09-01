@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   backend:
-    image: "mpajak99/student-registry:1"
+    image: "mpajak99/student-registry:1.9.2021.6.39.18"
     ports:
       - "80:8080"
     restart: "always"
