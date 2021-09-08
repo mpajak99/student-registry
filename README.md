@@ -1,7 +1,7 @@
 # Student Registry
 - This project was created through the `Full Stack Spring Boot & React (PROFESSIONAL)` course, to access it click [here](https://amigoscode.com/p/full-stack-spring-boot-react).
 
-![banner-course]()
+![banner-course](src/main/resources/prints/course-banner.png)
 
 ## Index :pushpin:
 - [About](#about)
@@ -28,17 +28,18 @@ This project helped me understand and put the following concepts into practice:
 
 ## Architecture Diagram <a name="architecture"></a> :pencil2:
 
-![architecture-diagram]()
+![architecture-diagram](src/main/resources/prints/architecture-diagram.png)
 
-## Show me the result <a name="result"></a> :link:
+## :link: Show me the result <a name="result"></a>
+
+![website-showcase](src/main/resources/prints/web-showcase.gif)
 
 ## Software testing <a name="result"></a> :man_technologist:
+Tools and libraries used for testing (carried out on a branch: testing):
 
-![testing-diagram]()
-
-Tools and libraries used for testing:
-
-- Unit Testing (JUnit5 & AssertJ)
+- Unit Testing (<strong>JUnit5 & AssertJ</strong>)
 - Testing External Services
-- Mocking with Mockito
+- Mocking with <strong>Mockito</strong>
 - Integration Testing
+
+![testing-diagram](src/main/resources/prints/testing-diagram.png)
